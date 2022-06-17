@@ -1,0 +1,213 @@
+<head>
+    <script>
+      const projectName = 'tribute-page';
+    </script>
+  
+    <style>
+  .mentri{
+    font-style: italic;
+    text-decoration-line: underline;
+    display: inline;
+  }
+  
+  
+      html {
+    /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+    font-size: 10px;
+  }
+  
+  body {
+    /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+      'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 460px) {
+    h1 {
+      font-size: 3.5rem;
+      line-height: 1.2;
+    }
+  }
+  
+  h2 {
+    font-size: 3.25rem;
+  }
+  
+  a {
+    color: #477ca7;
+  }
+  
+  a:visited {
+    color: #74638f;
+  }
+  
+  #main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+  }
+  
+  @media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-div {
+    background: white;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  #img-caption {
+    margin: 15px 0 5px 0;
+  }
+  
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+  }
+  
+  #headline {
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  li {
+    margin: 16px 0;
+  }
+  
+  blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+  }
+  
+    </style>
+  </head>
+  
+  <main id="main">
+    <h1 id="title">Prof. Dr.ing. Ir. H. Bacharuddin Jusuf Habibie, FREng</h1>
+    <p>The man who build plane</p>
+    <figure id="img-div">
+      <img
+        id="image"
+        src="https://img.era.id/1sfB36feT4MbbIRUlCSUJC940CSwVv7bVvdr5FDX_pU/rs:fill:1280:720/g:sm/bG9jYWw6Ly8vcHVibGlzaGVycy8zNTgyNS8yMDIwMDgyMDExMjktbWFpbi5jcm9wcGVkXzE1OTc4OTc3NjAuanBn.jpg"
+        alt="Bj Habibie seen standing next to n250 plane"
+      />
+      <figcaption id="img-caption">
+        Bj Habibie seen standing next to n250 or also known as Gatot kaca, is the first aircraft produced by the Republic of Indonesia.
+      </figcaption>
+    </figure>
+    <section id="tribute-info">
+      <h3 id="headline">Here's a time line of Bj Habibie life:</h3>
+      <ul>
+        <li><strong>1936</strong> - Born in Parepare, Sulawesi Selatan, Indonesia.</li>
+        <li>
+          <strong>1954</strong> - Study at Institut Teknologi Bandung (ITB) a year later he chose to continue his education at the Rhenisch Wesfalische Tehnische Hochscule (RWTH), Aachen, Germany.
+          Young Habibie spent 10 years completing his undergraduate to postgraduate studies in Aachen-Germany.
+        </li>
+        <li>
+          <strong>1960–1965</strong> - Assistant Riset, Chair and Institute for Lightweight Construction (Pimpinan dan Lembaga Konstruksi Ringan), Rheinisch-Westfaelische Technische Hochschule (RTWH), Aachen, Jerman.
+        </li>
+        <li>
+          <strong>1965-1966</strong> - Special Scientist, Hamburger Flugzeugbau (HFB) GmbH, Hamburg, Jerman.
+        </li>
+        <li>
+          <strong>1966–1969</strong> - Head, Structural Analysis Research and Development Section, HFB GmbH, Hamburg, Germany - 1968 Messerschmitt AG merged with Bolkow GmbH to become Messerschmitt-Bolkow GmbH - 1969 Messerschmitt-Bolkow GmbH merged with Hamburger Flugzeugbau to become Messerschmitt-Bolkow-Blohm (MBB) GmbH.
+        </li>
+        <li>
+          <strong>1969–1973</strong> - Head, Commercial and Military Aircraft Technology and Methods Division, MBB GmbH, Hamburg, Germany.
+        </li>
+        <li>
+          <strong>1974–1978</strong> - VP, Directorate of Technology Application, MBB GmbH, Hamburg, Germany.
+        </li>
+        <li>
+          <strong>1974-1998</strong> - Head of the Agency for the Assessment and Application of Technology (BPPT) - starting on 5 Jan'74 as Advisor to the President Director of PN Pertamina and Advisor to the President until May'74 forming and becoming Head of the Aviation Technology and Technology Division (ATTP) of PN Pertamina - then on 1 Apr' 76 ATTP became the Advance Technology Division of PN Pertamina (ATP) - then on 21 Aug'78 became the Agency for the Assessment and Application of Technology.
+        </li>
+        <li>
+          <strong>1976-1998</strong> - President Director of PT Industri Airplane Nurtanio (Persero) - formed 26 Apr'76 as a merger of elements of Aviation Technology Division ATTP PN Pertamina with the Aviation Industry Institute Nurtanio (LIPNUR) - now PT Dirgantara Indonesia (Persero).
+        </li>
+        <li>
+          <strong>1978-1998</strong> - President Director of Perum Dok and Shipyard - formed 29 Mar'78 from the Naval Upgrading Command (KONATAL), before 1970 named Penataran Laut (PAL) - now PT PAL Indonesia (Persero).
+        </li>
+        <li>
+          <strong>1978–1983</strong> - <div class="mentri"> State Minister for Research and Technology Development Cabinet III.</div> 
+        </li>
+        <li>
+          <strong>1978-1998</strong> - Chairman of the Batam Island Industrial Area Development Authority (Batam Authority) - now the Batam Free Trade Area and Free Port Concession Agency (BP Batam).
+        </li>
+        <li>
+          <strong>1983–1988</strong> - <div class="mentri">State Minister for Research and Technology Development Cabinet IV.</div>
+        </li>
+        <li><strong>1983-1998</strong> - President Director of PT Pindad (Persero) - formed 29 Apr'83 from the Army Industry Industry (Pindad).</li>
+        <li>
+          <strong>1984-1998</strong> - Chairman of the National Research Council - an improvement from the Formulating Team for the National Main Program for Research and Technology (PEPUNAS RISTEK) which was formed 11 May'78.
+        </li>
+        <li>
+          <strong>1988–1993</strong> - <div class="mentri" >State Minister for Research and Technology Development Cabinet V.</div>
+        </li>
+        <li>
+          <strong>1989-1998</strong> - Chairman of the Strategic Industry Management Agency (BPIS) and Deputy Chair of the Strategic Industry Development Board (DPIS)
+        </li>
+        <li>
+          <strong>1993–1998</strong> - <div class="mentri" >State Minister for Research and Technology Development Cabinet VI.</div>
+        </li>
+        <li>
+          <strong>1998</strong> - <div class="mentri" >Vice President of the Republic of Indonesia.</div>
+        </li>
+        <li>
+          <strong>1998–1999</strong> - <div class="mentri" >President of the Republic of Indonesia.</div>
+        </li>
+        <li><strong>2019</strong> - dies at the age of 83.</li>
+      </ul>
+      <blockquote
+        cite="http://news.rediff.com/report/2009/sep/14/pm-pays-tribute-to-father-of-green-revolution-borlaug.htm"
+      >
+        <p>
+          "Wherever you are, always be the best and give the best of what we can give."
+        </p>
+        <cite>-- BJ Habibie</cite>
+      </blockquote>
+      <h3>
+        If you have time, you should read more about this incredible human being
+        on his
+        <a
+          id="tribute-link"
+          href="https://id.wikipedia.org/wiki/B._J._Habibie"
+          target="_blank"
+          >Wikipedia entry</a
+        >.
+      </h3>
+    </section>
+  </main>
+  
